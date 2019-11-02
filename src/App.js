@@ -145,7 +145,7 @@ class EMICalculator extends Component {
             <div className="App">
             <div className="container">
             <div className="row">
-              <img src={logo} className="logo"/>
+              <img src={logo} className="logo" alt="Logo of Bank"/>
               <div className="heading">Iron Bank of Braavos</div>
             </div>
             <div className="bodyArea">

@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About the app
+
+The application is based on react which uses javascript.It has a sidebar with a history tab which stores the most recent input from the user in the localStorage of the browser.The calculation is displayed on the screen through the REST API call by providing the input values.The error message is also displayed if it fails to load the values.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,7 +70,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-## About the app
-
-The application is based on react which uses javascript.It has a sidebar with a history tab which stores the most recent input from the user in the localStorage of the browser.The calculation is displayed on the screen through the REST API call by providing the input values.The error message is also displayed if it fails to load the values.

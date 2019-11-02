@@ -36,6 +36,9 @@ const Styles = styled.div`
         font-family: custom;
         font-size: 150%;
       }
+      .displayHeading{
+        color: #888;
+      }
       .valueDisplay1{
         color: #888;
         width: 30%;
@@ -151,7 +154,7 @@ class EMICalculator extends Component {
             <div className="bodyArea">
             &nbsp;
             <div className="rowheading">
-              <p>Emi Calculation</p>
+              <p className ="displayHeading">Emi Calculation</p>
             </div>
               <div className="row ">
                 <SliderAmount
